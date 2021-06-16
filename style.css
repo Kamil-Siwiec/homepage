@@ -6,10 +6,6 @@ section {
   background: #ffffff;
 }
 
-.main-heading {
-  color: #92140c;
-}
-
 .secondary-heading {
   color: #1460aa;
 }
@@ -50,7 +46,7 @@ a {
 }
 
 .week-summary--special {
-    border: 1px #92140c solid;
+  border: 1px #92140c solid;
 }
 
 .week-summary__description {
@@ -59,4 +55,40 @@ a {
 
 .week-summary__title {
   color: #21a179;
+}
+
+.main {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+.main__heading {
+  color: #92140c;
+}
+
+.about {
+}
+
+.about__heading {
+  color: #1460aa;
+}
+
+.about__link {
+  color: #92140c;
+}
+
+.notes {
+}
+
+.notes__heading {
+  color: #1460aa;
+}
+
+.footer {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+.footer__link {
+  color: #1460aa;
 }
