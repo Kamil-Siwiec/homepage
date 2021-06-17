@@ -15,9 +15,16 @@ heading.innerHTML = `Witaj Drogi Odwiedzający, nazywam się ${firstName} i mam 
 
 
 
-const week = "tygodni";
-const number = 5
-
 const emptyParagraph = document.querySelector(".week-summary__description--js");
 
-emptyParagraph.innerHTML = `Nawet uzupełniłem treśc javascriptem, czeka mnie jeszcze ${number} ${week}`;
+emptyParagraph.innerHTML = `Nawet uzupełniłem treśc javascriptem!`;
+
+
+
+function calculate (myNumber) {
+    console.log(`Dostałam ${myNumber}`);
+    return myNumber*7;
+}
+
+const myResult = calculate(1);
+console.log(myResult);
