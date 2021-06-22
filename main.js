@@ -118,3 +118,22 @@ const showMeProperty = (myProperty) => {
     console.log(`Twoja własność ${myProperty} to: ${deathStar[myProperty]}`);
 }
 showMeProperty('levels')
+
+
+
+
+
+const humanOne = {
+    name: 'Maciek',
+    age: 32
+}
+
+const humanTwo = {
+    name: 'Stefan',
+    age: 32
+}
+
+humanTwo.age = 35
+
+console.log(humanOne)
+console.log(humanTwo)
