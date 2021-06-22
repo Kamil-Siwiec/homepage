@@ -125,15 +125,24 @@ showMeProperty('levels')
 
 const humanOne = {
     name: 'Maciek',
-    age: 32
+    age: 32,
+    adress: {
+    street: 'Warszawska',
+    city: 'Białystok'
+
+    }
 }
 
 const humanTwo = {
     name: 'Stefan',
-    age: 32
-}
+    age: 35,
+    adress: humanOne.adress.street,
+    city: 'Białystok'
+};
 
-humanTwo.age = 35
 
-console.log(humanOne)
-console.log(humanTwo)
+
+console.log(humanOne);
+console.log(humanTwo);
+
+humanOne.adress.street ='Lipowa'
