@@ -10,7 +10,9 @@
   <body>
     <header class="header">
       <nav class="navigation">
-        <a class="navigation__link navigation__link--homepage" href="index.html">Strona Główna</a>
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >Strona Główna</a
+        >
         <a class="navigation__link" href="nauka-html.html">Nauka html</a>
         <a class="navigation__link" href="nauka-css.html">Nauka css</a>
       </nav>
@@ -25,15 +27,22 @@
 
       <section class="about">
         <h2 class="about__heading">Kim jest ten typ?</h2>
-        <img class="about__picture" src="korsan-header.jpg" alt="Uśmiechnięty Korsan" />
+        <img
+          class="about__picture"
+          src="korsan-header.jpg"
+          alt="Uśmiechnięty Korsan"
+        />
         <p class="about__description">
           Hej! Na codzień uczę wspaniałych ludzi <em>tajnej sztuki</em>
           <i>frontendu</i> i pracuję w firmie o ciężko zapisywalnej nazwie
-          EYEDEAD. Prowadzę szkolenie <a class="about__link" href="https://cotenfrontend.pl">WTF</a>
+          EYEDEAD. Prowadzę szkolenie
+          <a class="about__link" href="https://cotenfrontend.pl">WTF</a>
           <br />
           Poza tym bardzo <b>lubię robić zdjęcia i latać dronem</b>. Witam Cię
           na mojej stronie domowej, mam nadzieję, że znajdziesz tu trochę
-          przydatnych rzeczy.<a class="about__link" href="#notatki">Przejdź do notatek</a>
+          przydatnych rzeczy.<a class="about__link" href="#notatki"
+            >Przejdź do notatek</a
+          >
         </p>
       </section>
 
@@ -41,9 +50,13 @@
         <h2 class="notes__heading">Notatki z WTF: Co ten frontend</h2>
 
         <article class="week-summary">
-          <h3 class="week-summary__title week-summary__title--js">Odrabianie pracy domowej</h3>
+          <h3 class="week-summary__title week-summary__title--js">
+            Odrabianie pracy domowej
+          </h3>
           <p class="week-summary__description">Poszło mi całkiem spoko :)</p>
-          <p class="week-summary__description week-summary__description--js"></p>
+          <p
+            class="week-summary__description week-summary__description--js"
+          ></p>
         </article>
 
         <article class="week-summary week-summary--special">
@@ -59,8 +72,22 @@
             <ul class="list">
               <li class="list__item">UL</li>
               <li class="list__item">OL</li>
-              <li class="list__item">SECTION</li>
+              <li class="list__item">
+                SECTION
+                <ol>
+                  <li>Przeanalizuj treść</li>
+                  <li>Podzielą ją na sekcje</li>
+                  <li>Utwórz pierwszą wersję kodu</li>
+                </ol>
+              </li>
             </ul>
+            <dl>
+              <dt>div</dt>
+              <dd>Opis mojego diva</dd>
+
+              <dt>article</dt>
+              <dd>Opis mojego artykułu</dd>
+            </dl>
           </section>
           <section>
             <h4>Kroki do zrobienia dobrego HTML-a</h4>
@@ -69,6 +96,38 @@
               <li>Podzielą ją na sekcje</li>
               <li>Utwórz pierwszą wersję kodu</li>
             </ol>
+          </section>
+          <section>
+            <h4>Rozpiska WTF</h4>
+            <table class="table">
+              <caption>
+                Spis odcinków WTF: co ten frontend
+              </caption>
+              <thead>
+                <tr>
+                  <th>lp</th>
+                  <th>tytuł</th>
+                  <th>czas trwania</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1.</td>
+                  <td>Powitanie</td>
+                  <td>05:45</td>
+                </tr>
+                <tr>
+                  <td>2.</td>
+                  <td>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quibusdam ratione perferendis in sequi vitae, incidunt et
+                    atque nemo nulla eveniet numquam rerum nesciunt deleniti
+                    veniam velit reiciendis sunt praesentium consectetur?
+                  </td>
+                  <td>12:45</td>
+                </tr>
+              </tbody>
+            </table>
           </section>
         </article>
 
@@ -89,7 +148,8 @@
 
     <footer class="footer">
       Strona domowa Maćka Korsana, wszystkie treści są efekem tworzenia
-      szkolenia WTF: Co ten frontend. <a class="footer__link" href="#top">Wróć na górę strony</a>
+      szkolenia WTF: Co ten frontend.
+      <a class="footer__link" href="#top">Wróć na górę strony</a>
     </footer>
 
     <script src="main.js"></script>
