@@ -92,3 +92,7 @@ a {
 .footer__link {
   color: #1460aa;
 }
+
+.list {
+  list-style: square;
+}
