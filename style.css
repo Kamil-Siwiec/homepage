@@ -31,21 +31,25 @@ a {
   color: #02e4d5;
 }
 
-.header-link {
-  color: #04ac26;
+.header {
+  
 }
 
 .navigation {
   background: #478a05;
   padding: 16px;
   border-radius: 8px;
+
+
+  display: flex;
+  justify-content: center;
+  width: 100vw;
 }
 
 .navigation__link {
   color: #fff;
-  display: flex;
+  display: ;
   margin-right: 20px;
-  justify-content: center;
 }
 
 .navigation__link--homepage {
