@@ -43,8 +43,9 @@ a {
 
 .navigation__link {
   color: #fff;
-  display: inline-block;
+  display: flex;
   margin-right: 20px;
+  justify-content: center;
 }
 
 .navigation__link--homepage {

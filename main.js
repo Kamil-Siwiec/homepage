@@ -59,7 +59,7 @@ HelloWorld();
 
 
 const greet = (age, firstName) => {
-console.log(`Witaj Drogi Odwiedzający, nazywam sie${firstName} i mam ${age}lata`);
+console.log(`Witaj Drogi Odwiedzający, nazywam się ${firstName} i mam ${age}lata`);
 
 }
 greet(age, firstName);
