@@ -39,16 +39,15 @@ a {
   background: #478a05;
   padding: 16px;
   border-radius: 8px;
-
-
   display: flex;
-  justify-content: center;
-  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
 }
 
 .navigation__link {
   color: #fff;
-  display: ;
+  display: inline-block;
   margin-right: 20px;
 }
 
