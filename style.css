@@ -9,8 +9,8 @@ html {
 }
 
 body {
-  background: lightgray;
-  background: linear-gradient(0deg, rgba(80,25,191,1) 0%, rgba(128,82,176,1) 50%, rgba(241,67,102,1) 100%);
+  background-color: #92bbd1;
+  background-image: linear-gradient(163deg, #92bbd1 0%, #ffffff 100%);
   min-height: 100vh;
 
 }
