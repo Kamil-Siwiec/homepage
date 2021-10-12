@@ -32,27 +32,29 @@ a {
 }
 
 .header {
-  
+  background-color: #fff;
+  min-height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navigation {
-  background: #478a05;
   padding: 16px;
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100px;
+  display: none;
+}
+
+.navigation--open {
+  display: block;
 }
 
 .navigation__link {
-  color: #fff;
-  display: inline-block;
-  margin-right: 20px;
+  color: #92140c;
+  display: block;
+  margin: 0 0 16px;
 }
 
 .navigation__link--homepage {
-  background: yellow;
   color: black;
 }
 
@@ -76,7 +78,7 @@ a {
 
 .main {
   max-width: 1000px;
-  margin: 0px auto;
+  margin: 60px auto 0;
 }
 
 .main__heading {
@@ -92,6 +94,11 @@ a {
 
 .about__link {
   color: #92140c;
+}
+
+.about__picture {
+  display: block;
+  max-width: 100%;
 }
 
 .notes {
@@ -118,3 +125,17 @@ a {
   width: 100%;
 }
 
+.klasa-z-js {
+  background-color: yellow;
+}
+
+@media (min-width: 768px) {
+  .navigation {
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+  }
+}

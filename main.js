@@ -149,23 +149,24 @@ console.log(result)
 
 // DWA sposoby na klikniecie i dokonanie zmiany w html
 
-// const button = document.querySelector('.action--js');
+const button = document.querySelector('.action--js');
 
-// button.addEventListener('click', () => {
-//   const heading = document.querySelector('.main__heading--js');
-//   heading.innerHTML = `Siema!`;
-// });
+button.addEventListener('click', () => {
+  const heading = document.querySelector('.main__heading--js');
+  heading.innerHTML = `Witaj Drogi Odwiedzający, nazywam się Kamil!`;
+  console.log();
+});
 
 
 // drugi sposob osobno pobieranie , osobno funkcja osobno nasluchiwanie
 
-const button = document.querySelector('.action--js');
+// const button = document.querySelector('.action--js');
 
-const myClick = () => {
-  const heading = document.querySelector('.main__heading--js');
-   heading.innerHTML = `siemkaaa`;
-}
+// const myClick = () => {
+//   const heading = document.querySelector('.main__heading--js');
+//    heading.innerHTML = `siemkaaa`;
+// }
 
-button.addEventListener('click', myClick);
+// button.addEventListener('click', myClick);
 
 
