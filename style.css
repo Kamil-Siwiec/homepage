@@ -129,6 +129,12 @@ a {
   background-color: yellow;
 }
 
+.hamburger {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
 @media (min-width: 768px) {
   .navigation {
     padding: 16px;
