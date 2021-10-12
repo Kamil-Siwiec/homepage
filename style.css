@@ -136,6 +136,9 @@ a {
 }
 
 @media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
   .navigation {
     padding: 16px;
     border-radius: 8px;
