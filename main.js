@@ -1,9 +1,6 @@
 const firstName = "Maciek";
 const age = 32;
 
-const heading = document.querySelector(".main__heading--js");
-
-heading.innerHTML = `Witaj Drogi Odwiedzający, nazywam się ${firstName} i mam ${age}lata.`;
 
 const emptyParagraph = document.querySelector(".week-summary__description--js");
 
@@ -148,3 +145,27 @@ if (32 > 20) {
 const result =(32 > 20) ? true : false;
 
 console.log(result)
+
+
+// DWA sposoby na klikniecie i dokonanie zmiany w html
+
+// const button = document.querySelector('.action--js');
+
+// button.addEventListener('click', () => {
+//   const heading = document.querySelector('.main__heading--js');
+//   heading.innerHTML = `Siema!`;
+// });
+
+
+// drugi sposob osobno pobieranie , osobno funkcja osobno nasluchiwanie
+
+const button = document.querySelector('.action--js');
+
+const myClick = () => {
+  const heading = document.querySelector('.main__heading--js');
+   heading.innerHTML = `siemkaaa`;
+}
+
+button.addEventListener('click', myClick);
+
+
