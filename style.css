@@ -39,6 +39,10 @@ a {
   width: 100%;
 }
 
+.input:focus {
+border: 2px solid yellow;
+}
+
 .navigation {
   padding: 16px;
   display: none;
@@ -58,6 +62,14 @@ a {
   color: #1460aa;
 }
 
+.navigation__link:focus {
+  border: 3px solid yellow;
+}
+
+.navigation__link:visited {
+  color: #1460aa;
+}
+
 .navigation__link--homepage {
   color: black;
 }
@@ -71,6 +83,15 @@ a {
 .week-summary:hover {
   background-color: hotpink;
 }
+
+.week-summary:first-child {
+  background-color: yellow;
+}
+
+.week-summary:last-child {
+  background-color: blue;
+}
+
 
 .week-summary--special {
   border: 1px #92140c solid;
