@@ -54,6 +54,10 @@ a {
   margin: 0 0 16px;
 }
 
+.navigation__link:hover {
+  color: #1460aa;
+}
+
 .navigation__link--homepage {
   color: black;
 }
@@ -62,6 +66,10 @@ a {
   padding: 16px;
   border: 1px solid #ccc;
   margin-bottom: 16px;
+}
+
+.week-summary:hover {
+  background-color: hotpink;
 }
 
 .week-summary--special {
@@ -74,6 +82,24 @@ a {
 
 .week-summary__title {
   color: #21a179;
+}
+
+.week-summary__title::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: tomato;
+  border-radius: 50%;
+}
+
+.week-summary__title::after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: tomato;
+  border-radius: 50%;
 }
 
 .main {
@@ -154,7 +180,7 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     }
-    
+
   .navigation {
     padding: 16px;
     border-radius: 8px;
