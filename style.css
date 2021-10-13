@@ -139,9 +139,7 @@ a {
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 16px;
+  
 }
 
 
@@ -150,6 +148,13 @@ a {
   .hamburger {
     display: none;
   }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    }
+    
   .navigation {
     padding: 16px;
     border-radius: 8px;
