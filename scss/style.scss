@@ -124,29 +124,22 @@ a {
 .main {
   max-width: 1000px;
   margin: 60px auto 0;
-}
-
-.main__heading {
-  color: #92140c;
+  &__heading {
+    color: #92140c;
+  }
 }
 
 .about {
-}
-
-.about__heading {
-  color: #1460aa;
-}
-
-.about__link {
-  color: #92140c;
-}
-
-.about__picture {
-  display: block;
-  max-width: 100%;
-}
-
-.notes {
+  &__heading {
+    color: #1460aa;
+  }
+  &__link {
+    color: #0c925a;
+  }
+  &__picture {
+    display: block;
+    max-width: 100%;
+  }
 }
 
 .notes__heading {
