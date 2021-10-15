@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "sass": "npx node-sass -w scss/main.scss main.css",
+    "sass": "npx node-sass -w scss/style.scss style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
