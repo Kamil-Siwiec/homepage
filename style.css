@@ -1,3 +1,29 @@
+.week-summary {
+  padding: 16px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+  background-color: #fff; }
+  .week-summary--special {
+    border: 1px #92140c solid; }
+  .week-summary__description {
+    color: #92140c; }
+  .week-summary__title {
+    color: #21a179; }
+    .week-summary__title::before {
+      content: "";
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      background-color: tomato;
+      border-radius: 50%; }
+    .week-summary__title::after {
+      content: "";
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      background-color: tomato;
+      border-radius: 50%; }
+
 html {
   box-sizing: border-box; }
 
@@ -56,32 +82,6 @@ a {
 
 .navigation__link--homepage {
   color: black; }
-
-.week-summary {
-  padding: 16px;
-  border: 1px solid #ccc;
-  margin-bottom: 16px;
-  background-color: #fff; }
-  .week-summary--special {
-    border: 1px #92140c solid; }
-  .week-summary__description {
-    color: #92140c; }
-  .week-summary__title {
-    color: #21a179; }
-    .week-summary__title::before {
-      content: "";
-      display: inline-block;
-      width: 12px;
-      height: 12px;
-      background-color: tomato;
-      border-radius: 50%; }
-    .week-summary__title::after {
-      content: "";
-      display: inline-block;
-      width: 12px;
-      height: 12px;
-      background-color: tomato;
-      border-radius: 50%; }
 
 .main {
   max-width: 1000px;
