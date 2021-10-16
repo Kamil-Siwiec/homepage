@@ -77,48 +77,32 @@ a {
   padding: 16px;
   border: 1px solid #ccc;
   margin-bottom: 16px;
-}
-
-.week-summary:hover {
-  background-color: hotpink;
-}
-
-.week-summary:first-child {
-  background-color: yellow;
-}
-
-.week-summary:last-child {
-  background-color: blue;
-}
-
-.week-summary--special {
-  border: 1px #92140c solid;
-}
-
-.week-summary__description {
-  color: #92140c;
-}
-
-.week-summary__title {
-  color: #21a179;
-}
-
-.week-summary__title::before {
-  content: "";
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  background-color: tomato;
-  border-radius: 50%;
-}
-
-.week-summary__title::after {
-  content: "";
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  background-color: tomato;
-  border-radius: 50%;
+  background-color: #fff;
+  &--special {
+    border: 1px #92140c solid;
+  }
+  &__description {
+    color: #92140c;
+  }
+  &__title {
+    color: #21a179;
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      background-color: tomato;
+      border-radius: 50%;
+    }
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      background-color: tomato;
+      border-radius: 50%;
+    }
+  }
 }
 
 .main {
@@ -133,14 +117,13 @@ a {
   &__heading {
     color: #1460aa;
     &::before {
-        content: '';
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        margin-right: 16px;
-        background-color: #92140c;
+      content: "";
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      margin-right: 16px;
+      background-color: #92140c;
     }
-
   }
   &__link {
     color: #0c925a;
