@@ -132,6 +132,15 @@ a {
 .about {
   &__heading {
     color: #1460aa;
+    &::before {
+        content: '';
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        margin-right: 16px;
+        background-color: #92140c;
+    }
+
   }
   &__link {
     color: #0c925a;

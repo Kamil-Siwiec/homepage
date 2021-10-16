@@ -104,6 +104,13 @@ a {
 
 .about__heading {
   color: #1460aa; }
+  .about__heading::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+    background-color: #92140c; }
 
 .about__link {
   color: #0c925a; }
